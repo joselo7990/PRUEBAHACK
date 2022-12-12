@@ -51,7 +51,7 @@ body {
     margin-top: 10px;
 }
 
-@media screen and (max-width:475px) {
+@media screen and (max-width:600px) {
     .btn-new {
         font-size: 10px;
     }
@@ -60,5 +60,14 @@ body {
     }
     .container h1 {
         font-size: 15px;
+    }
+    .user-data {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .user-data {
+        width: 60%;
     }
 }
